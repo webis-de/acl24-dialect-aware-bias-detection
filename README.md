@@ -8,6 +8,19 @@ For details on the approach, architecture and idea, please see the published pap
 
 NOTE: ALL PRE_TRAINED MODELS AND CLASSIFICATION OUTPUTS WILL BE ADDED SOON. :)
 
+```
+@InProceedings{spliethoever2024,
+  address =                  {Bangkok, Thailand},
+  author =                   {Maximilian Splieth{\"o}ver and Sai Nikhil Menon and Henning Wachsmuth},
+  booktitle =                {Findings of the Association for Computational Linguistics: ACL 2024},
+  month =                    aug,
+  publisher =                {Association for Computational Linguistics},
+  title =                    {{Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness}},
+  url =                      {https://arxiv.org/abs/2406.09977},
+  year =                     2024
+}
+```
+
 
 ## General
 - Each directory-related approach contains a `data-preparation.py` script. This should be run before any training scripts.
