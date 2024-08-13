@@ -9,15 +9,16 @@ For details on the approach, architecture and idea, please see the published pap
 NOTE: ALL PRE_TRAINED MODELS AND CLASSIFICATION OUTPUTS WILL BE ADDED SOON. :)
 
 ```
-@InProceedings{spliethoever2024,
-  address =                  {Bangkok, Thailand},
-  author =                   {Maximilian Splieth{\"o}ver and Sai Nikhil Menon and Henning Wachsmuth},
-  booktitle =                {Findings of the Association for Computational Linguistics: ACL 2024},
-  month =                    aug,
-  publisher =                {Association for Computational Linguistics},
-  title =                    {{Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness}},
-  url =                      {https://arxiv.org/abs/2406.09977},
-  year =                     2024
+@inproceedings{spliethover-etal-2024-disentangling,
+    title =      "Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness",
+    author =     Splieth{\"o}ver, Maximilian and Menon, Sai Nikhil and Wachsmuth, Henning,
+    booktitle =  "Findings of the Association for Computational Linguistics ACL 2024",
+    month =      aug,
+    year =       "2024",
+    address =    "Bangkok, Thailand and virtual meeting",
+    publisher =  "Association for Computational Linguistics",
+    url =        "https://aclanthology.org/2024.findings-acl.553",
+    pages =      "9294--9313",
 }
 ```
 
