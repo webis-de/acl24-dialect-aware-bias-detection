@@ -4,7 +4,7 @@ set -e
 
 SEEDS=(23 42 271 314 1337)
 SBIC_TASKS=("groupYN" "intentYN" "lewdYN" "offensiveYN" "ingroupYN")
-BASE_MODEL_NAME="roberta-base"
+BASE_MODEL_NAME="deberta-v3-base"
 MODEL_PATH="./model/__final/multi-seed-runs"
 
 for seed in "${SEEDS[@]}"; do

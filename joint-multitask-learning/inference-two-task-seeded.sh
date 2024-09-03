@@ -1,7 +1,7 @@
 #! /bin/bash
 
 SEEDS=(23 42 271 314 1337)
-BASE_MODEL_NAME="bert-base-uncased"
+BASE_MODEL_NAME="deberta-v3-base"
 MODEL_PATH="./model/__final/multi-seed-runs"
 SBIC_TASKS=("groupYN" "intentYN" "lewdYN" "offensiveYN" "ingroupYN")
 

@@ -15,7 +15,7 @@ for seed in "${SEEDS[@]}"; do
             --train_data "../data/sbic-data/sbic-train-prep.csv" \
             --val_data "../data/sbic-data/sbic-val-prep.csv" \
             --test_data "../data/sbic-data/sbic-test-prep.csv" \
-            --base_model "./model/roberta-base" \
+            --base_model "./model/deberta-v3-base" \
             --cache_path "/tmp" \
             --model_identifier "finetune_${TIMESTAMP}" \
             --seed "${seed}"

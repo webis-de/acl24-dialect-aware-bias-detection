@@ -20,7 +20,7 @@ for seed in "${SEEDS[@]}"; do
 
                 python train.py \
                     --data_dir "./intermediate" \
-                    --base_model "./model/roberta-base" \
+                    --base_model "./model/deberta-v3-base" \
                     --cache_path "/tmp" \
                     --model_identifier "two-task-mtl_${task}_${TIMESTAMP}" \
                     --seed "${seed}" \
