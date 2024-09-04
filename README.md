@@ -2,11 +2,9 @@ Dialect Aware Social Bias Identification
 ========================================
 
 
-Code for the paper [Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness](https://arxiv.org/abs/2406.09977).
+Code for the paper [Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness](https://aclanthology.org/2024.findings-acl.553/).
 
 For details on the approach, architecture and idea, please see the published paper.
-
-NOTE: ALL PRE_TRAINED MODELS AND CLASSIFICATION OUTPUTS WILL BE ADDED SOON. :)
 
 ```
 @inproceedings{spliethover-etal-2024-disentangling,
@@ -67,3 +65,18 @@ The approach expects the pre-processed (and with AAE dialect annotated) SBIC cor
 1. `./joint-multitask-learning/data-preparation.py`
 2. `./joint-multitask-learning/train*.sh` (depending on the approach you want to train)
 3. `./joint-multitask-learning/inference*.sh` (depending on the approach trained before)
+
+
+## Trained models
+The trained models evaluated in the paper can be found on huggingface.co :
+
+- [AAE dialect classification models](https://huggingface.co/webis/acl2024-aae-dialect-classification)
+- [Social bias classification models](https://huggingface.co/webis/acl2024-social-bias-classification)
+
+
+## Classification results
+The `results/` directory contains the various classification outputs of the paper:
+
+1. The `results/twitteraae-dialect-classification` contains the classification results of the baseline, the weighted loss model, and the data subsampling model on the TwitterAAE dataset.
+2. The `results/sbic-bias-classificaiton/` directory contains the bias classification results from all models shown and evaluated in the paper. Each model was run with five different random seeds, as indicated by the `-seedX` postfix of each result file.
+3. The SBIC data with AAE dialect annotations, based on our classifier, can be found in the `results/sbic-dialect-classification/` directory.
