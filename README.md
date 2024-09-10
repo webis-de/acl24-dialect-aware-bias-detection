@@ -75,14 +75,8 @@ The trained models evaluated in the paper can be found on huggingface.co :
 
 
 ## Classification results
-The `results/` directory contains the various classification outputs of the paper:
+The result files can be found in the model repositories specified above. Specifically:
 
-1. The `results/twitteraae-dialect-classification` contains the classification results of the baseline, the weighted loss model, and the data subsampling model on the TwitterAAE dataset.
-2. The `results/sbic-bias-classificaiton/` directory contains the bias classification results from all models shown and evaluated in the paper. Each model was run with five different random seeds, as indicated by the `-seedX` postfix of each result file.
-3. The SBIC data with AAE dialect annotations, based on our classifier, can be found in the `results/sbic-dialect-classification/` directory.
-
-
-### Pulling result files
-Due to their file size, all result files are stored in the repository using Git LFS, which is a separate package you need to install (detailed instructions avialable [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files)).
-
-To download the result files, run `git lfs checkout` in the repository.
+1. The TwitterAAE classification results can be found [here](https://huggingface.co/webis/acl2024-aae-dialect-classification/). The `results/twitteraae-dialect-classification` directory contains the classification results of the baseline, the weighted loss model, and the data subsampling model on the TwitterAAE dataset.
+2. The SBIC data with AAE dialect annotations, based on our classifier, can be found [here](https://huggingface.co/webis/acl2024-social-bias-classification/), in the `results/sbic-dialect-classification/` directory.
+3. The bias classification results from all models shown and evaluated in the paper can be found [here](https://huggingface.co/webis/acl2024-social-bias-classification/), in the `results/sbic-bias-classificaiton/` directory. Each model was run with five different random seeds, as indicated by the `-seedX` postfix of each result file.
