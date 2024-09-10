@@ -80,3 +80,9 @@ The `results/` directory contains the various classification outputs of the pape
 1. The `results/twitteraae-dialect-classification` contains the classification results of the baseline, the weighted loss model, and the data subsampling model on the TwitterAAE dataset.
 2. The `results/sbic-bias-classificaiton/` directory contains the bias classification results from all models shown and evaluated in the paper. Each model was run with five different random seeds, as indicated by the `-seedX` postfix of each result file.
 3. The SBIC data with AAE dialect annotations, based on our classifier, can be found in the `results/sbic-dialect-classification/` directory.
+
+
+### Pulling result files
+Due to their file size, all result files are stored in the repository using Git LFS, which is a separate package you need to install (detailed instructions avialable [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files)).
+
+To download the result files, run `git lfs checkout` in the repository.
